@@ -28,11 +28,11 @@ void swap(int *a,int* b)
     temp=*a;
     *a=*b;
     *b=temp;
-  cout<<"Inside swabByValue function: "<<"a = "<< *a<<" , "<<"b = "<< *b<<endl;
+  cout<<"Inside swabByValue- "<<"a = "<< *a<<" , "<<"b = "<< *b<<endl;
 }
  int main()
 { int a=5,b=10;
-cout<<"Before swabByValue- "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"Before swapByValue- "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 swap(&a,&b); 
 cout<<"After swapByValue- "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
@@ -47,14 +47,14 @@ void swap(int a,int b)
     temp=a;
     a=b;
     b=temp;
-   cout<<"Inside swabByValue function: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+   cout<<"Inside swapByValue- "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
 int main()
  
 { int a=5,b=10;
-cout<<"Before swabByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"Before swapByValue- "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 swap(a,b);
-cout<<"After swapByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"After swapByValue- "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
 ```
 
@@ -69,4 +69,4 @@ Call By Value-
 
 ## Conclusion
 - We explored how to swap numbers using call by value.
-- We also investigated how to swap numbers using call by reference.
+- We also explored how to swap numbers using call by reference.
