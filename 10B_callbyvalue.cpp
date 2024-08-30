@@ -7,12 +7,12 @@ void swap(int a,int b)
     temp=a;
     a=b;
     b=temp;
-   cout<<"Inside swabByValue function: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+   cout<<"Inside swapByValue function: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
 int main()
  
 { int a=5,b=10;
-cout<<"Before swabByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"Before swapByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 swap(a,b);
 cout<<"After swapByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
